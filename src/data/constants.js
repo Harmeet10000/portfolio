@@ -168,7 +168,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://github.com/Harmeet10000/chat-app/blob/main/screenshots/Pasted%20image.png",
+    img: "https://github.com/Harmeet10000/portfolio/blob/main/src/images/download.jpeg",
     school: "St John's School, Faridabad",
     date: "Apr 2019 - Apr 2021",
     grade: "89%",
@@ -177,7 +177,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://github.com/Harmeet10000/chat-app/blob/main/screenshots/Pasted%20image.png",
+    img: "https://github.com/Harmeet10000/portfolio/blob/main/src/images/download.jpeg",
     school: "St John's School, Faridabad",
     date: "Apr 2005 - Apr 2019",
     grade: "93%",
