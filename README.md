@@ -3,8 +3,8 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 ### Weblink: [Live Website](https://harmeet-portfolio.vercel.app/)
 ## Some Images:
-![image](https://github.com/AmanMalviya22/portfolio/assets/94959490/904d32de-4abb-4d60-9b64-a478d0d4c1fb)
-
+![image](https://github.com/Harmeet10000/portfolio/blob/main/src/images/Screenshot%20from%202024-06-09%2014-29-52.png)
+ 
 
 
 ## Table of Contents
