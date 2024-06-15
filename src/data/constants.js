@@ -150,7 +150,7 @@ export const experiences = [
     skills: [
       "Technical Documentation",
       "Communication Skills",
-      "MoTechnical WritingngoDB",
+      "Technical Writing",
     ],
     doc: "",
   },
