@@ -168,7 +168,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://github.com/Harmeet10000/portfolio/blob/main/src/images/download.jpeg",
+    img: "https://github.com/Harmeet10000/portfolio/blob/main/src/images/download.jpeg?raw=true",
     school: "St John's School, Faridabad",
     date: "Apr 2019 - Apr 2021",
     grade: "89%",
@@ -177,7 +177,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://github.com/Harmeet10000/portfolio/blob/main/src/images/download.jpeg",
+    img: "https://github.com/Harmeet10000/portfolio/blob/main/src/images/download.jpeg?raw=true",
     school: "St John's School, Faridabad",
     date: "Apr 2005 - Apr 2019",
     grade: "93%",
@@ -220,14 +220,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Harmeet10000",
     webapp: "https://natour-web-app.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Aman Malviya",
-    //     img: "https://avatars.githubusercontent.com/u/94959490?v=4",
-    //     linkedin: "https://www.linkedin.com/in/aman-malviya-839392201/",
-    //     github: "https://github.com/AmanMalviya22",
-    //   },
-    // ],
+  
   },
   {
     id: 2,
@@ -236,26 +229,12 @@ export const projects = [
     description:
       "Stay connected and communicate effortlessly with our state-of-the-art real-time chat application for seamless, instantaneous messaging. Our platform provides a secure, reliable, and user-friendly environment for both personal and group conversations.",
     image:
-      "https://github.com/Harmeet10000/1.weather-app/blob/main/public/weather-app.png",
+      "https://github.com/Harmeet10000/1.weather-app/blob/main/public/weather-app.png?raw=true",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "RESTful API"],
     category: "web app",
     github: "https://github.com/Harmeet10000",
     webapp: "https://1-weather-app.vercel.app/",
-    // member: [
-    //   {
-    //     name: "Aman Malviya",
-    //     img: "https://avatars.githubusercontent.com/u/94959490?v=4",
-    //     linkedin: "https://www.linkedin.com/in/aman-malviya-839392201/",
-    //     github: "https://github.com/AmanMalviya22",
-    //   },
-    // ],
+    
   },
 ];
-
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];
+ 
