@@ -159,7 +159,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://upload.wikimedia.org/wikipedia/commons/d/d0/SMVD_University_Logo.png",
+    img: "https://github.com/Harmeet10000/portfolio/blob/main/src/images/College%20logo.png?raw=true",
     school: "Shri Mata Vaishno Devi University, Katra",
     date: "Dec 2021 - May 2025",
     grade: "8.53 CGPA",
