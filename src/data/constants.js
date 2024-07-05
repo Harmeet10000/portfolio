@@ -219,7 +219,7 @@ export const projects = [
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Socket.io"],
     category: "web app",
     github: "https://github.com/Harmeet10000",
-    webapp: "https://natour-web-app.netlify.app/",
+    webapp: "https://talk-a-tive-7fgq.onrender.com/and",
   
   },
   {
