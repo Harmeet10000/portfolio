@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+// import { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
+import emailjs from "emailjs-com";
 import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
@@ -126,17 +127,42 @@ const Contact = () => {
 
   //hooks
   const [open, setOpen] = React.useState(false);
-  const form = useRef();
-
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  // const form = useRef();
+//  console.log(form);
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-      .then((result) => {
+    // emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    //   .then((result) => {
+    //     setOpen(true);
+    //     form.current.reset();
+    //   }, (error) => {
+    //     console.log(error.text);
+    //   });
+    emailjs
+    .send(
+      "service_735smho",
+      "template_o6yik0a",
+      {
+        from_name: name,
+        email_id: email,
+        message: message,
+      },
+      "n6hofHA1RvVCexZIV"
+    )
+    .then(
+      (result) => {
         setOpen(true);
-        form.current.reset();
-      }, (error) => {
+      },
+      (error) => {
         console.log(error.text);
-      });
+      }
+    );
+  setName("");
+  setEmail("");
+  setMessage("");
   }
 
 
@@ -146,13 +172,16 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm >
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactInput placeholder="Your Email" name="from_email"  value={email}
+            onChange={(e) => setEmail(e.target.value)} />
+          <ContactInput placeholder="Your Name" name="from_name" value={name}
+            onChange={(e) => setName(e.target.value)} />
+          {/* <ContactInput placeholder="Subject" name="subject" /> */}
+          <ContactInputMessage placeholder="Message" rows="4" name="message"  value={message}
+          onChange={(e) => setMessage(e.target.value)} />
+          <ContactButton type="submit" value={open ? "Thank you": "Send"}   onClick={handleSubmit} />
         </ContactForm>
         <Snackbar
           open={open}
