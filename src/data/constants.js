@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Harmeet10000",
   resume:
-    "https://drive.google.com/file/d/1GoLeZ2rchgUGS8FimMRJZSO9nPQdtRBi/view?usp=sharing",
+    "https://drive.google.com/file/d/1n_CQZBVxVg336BjZcqB6sA451MxjxwrO/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/harmeet-singh-crypto",
   linktree: "https://linktr.ee/harmeet__singh__1",
   twitter: "https://twitter.com/Nobody_crypto_H",
