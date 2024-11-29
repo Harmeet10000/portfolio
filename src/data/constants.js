@@ -168,6 +168,20 @@ export const experiences = [
     ],
     doc: "",
   },
+    {
+    id: 6,
+    img: "https://github.com/etbct2025/etbct2025/blob/main/public/logo.png",
+    role: "Frontend Developer Intern",
+    company: "SMVDU",
+    date: "July 2024 - Aug 2024",
+    desc: "Maintained proactive attitude in tackling new challenges and demonstrated a commitment to practical problem-solving and continuous learning throughout my internship.",
+    skills: [
+      "React.js",
+      "Communication Skills",
+      "Team Collaboration",
+    ],
+    doc: "",
+  },
 ];
 
 export const education = [
