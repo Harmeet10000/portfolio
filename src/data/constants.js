@@ -156,7 +156,7 @@ export const experiences = [
   },
     {
     id: 5,
-    img: "https://github.com/CarbonCrunch/CarbonCrunch-GHG-Dashboard/blob/main/frontend/src/components/landingPage/assets/logoCC.png",
+    img: "https://github.com/CarbonCrunch/CarbonCrunch-GHG-Dashboard/blob/main/frontend/src/components/landingPage/assets/logoCC.png?raw=true",
     role: "SDE Intern",
     company: "Carbon Crunch",
     date: "July 2024 - Ongoing",
@@ -170,7 +170,7 @@ export const experiences = [
   },
     {
     id: 6,
-    img: "https://github.com/etbct2025/etbct2025/blob/main/public/logo.png",
+    img: "https://github.com/etbct2025/etbct2025/blob/main/public/logo.png?raw=true",
     role: "Frontend Developer Intern",
     company: "SMVDU",
     date: "July 2024 - Aug 2024",
